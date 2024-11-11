@@ -104,7 +104,10 @@ main .box {
 }
 
 main .box img {
-    width: 290px;
+    width: 270px;
+    background-color: #F1F1F1;
+    padding: 15px 20px;
+    border-radius: 8px;
 }
 main .box .odrar-box {
     display: flex;
