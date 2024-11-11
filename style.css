@@ -77,3 +77,56 @@ header .header-infu a {
     font-size: 18px;
 }
 
+/* main section css */
+.main-continor {
+    width:1200px ;
+    margin: 0 auto;
+}
+.woman-jacket {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 20px auto;
+}
+main .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 570px;
+    background-color:#FFFBF0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px ;
+    box-shadow:5px 10px #FBFBFB;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+main .box img {
+    width: 290px;
+}
+main .box .odrar-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+.odrar-box p {
+    font-size: 36px;
+    color:#FABE4C;
+}
+
+.odrar-box a {
+    background-color: #A4BC46;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #F1F1F1;
+    text-decoration: none;
+}
+main h3 {
+    font-size: 48px;
+    color:#363958;
+    ;
+}
+

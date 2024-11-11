@@ -1,6 +1,8 @@
 @media screen and (max-width:650px){
     body {
-     display: block;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
     }
     header {
         background-color: #FFFBF0;
@@ -24,6 +26,13 @@ header .continer {
     }
     header .header-img {
         width: 360px;
+    }
+
+    main .woman-jacket {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
     }
     
 }
