@@ -1,0 +1,29 @@
+@media screen and (max-width:650px){
+    body {
+     display: block;
+    }
+    header {
+        background-color: #FFFBF0;
+    }
+    
+header .continer {
+    width: 400px;
+    height: 1050px;
+    margin: 0 auto;
+}
+    nav ul li {
+        display:none;
+    }
+    nav .nav-infu ul .icon  {
+        display: block;
+    }
+
+    header .hed-section {
+        display: flex;
+        flex-direction: column;
+    }
+    header .header-img {
+        width: 360px;
+    }
+    
+}
