@@ -133,3 +133,46 @@ main h3 {
     ;
 }
 
+
+/* footer section css  */
+.footer-continer {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+footer .footer-box {
+    display: flex;
+    align-items: center;
+    background-color:#F1F1F1 ;
+    padding: 10px 25px;
+    border-radius: 5px;
+    /* flex-direction: row; */
+}
+.footer-infu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 480px;
+    height: 135px;
+}
+
+footer .footer-box .foot-img img {
+    width: 78px;
+}
+.footer-img img {
+    width: 500px;
+}
+footer .footer-box .foot-infu {
+    display:flex;
+    flex-direction: column;
+}
+footer .footer-box .foot-infu  h3 {
+    margin: 0;
+}
+footer {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
